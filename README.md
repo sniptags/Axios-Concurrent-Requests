@@ -8,7 +8,7 @@ For example user sends a request as '/api/posts?tags=History,Science'.
 
 We will send two concurrent requests using axios Promise.all([array of requests urls]).
 
-array of request urls is created by mapping convering values of tags query parameter into an array and mapping that array to create another array with reqest urls.
+array of request urls is created by converting the values of tags query parameter into an array and mapping that array to create another array with request urls.
 
 Example of array: ['api.example.com/tag=History','api.example.com?tag=Scinece']
 
