@@ -1,0 +1,21 @@
+{
+  "name": "assessment",
+  "version": "1.0.0",
+  "description": "This is an assessment project for Hatchways.io",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "jest --watchAll"
+  },
+  "author": "Gagandeep Singh",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "express": "^4.17.3",
+    "jest": "^27.5.1",
+    "memory-cache": "^0.2.0"
+  },
+  "devDependencies": {
+    "supertest": "^6.2.2"
+  }
+}
