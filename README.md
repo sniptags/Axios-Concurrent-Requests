@@ -1,6 +1,6 @@
 # Axios-Concurrent-Requests
 
-This code snippets shows how to make concurrnt requst using axios "Promise.all()" in express application.
+This code snippets shows how to make concurrnt requst using axios "Promise.all()" in express application and cache the requests
 
 The get Url route '/api/posts' accepts multiple tags as query parameter However  lets suppose api.example only permits one tag a time.
 
